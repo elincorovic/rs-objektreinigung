@@ -19,7 +19,7 @@ let offers = getOffers();
          <p>Ihr Partner für makellose Räumlichkeiten in Stuttgart!</p>
       </div>
       <div id="hero-button">
-         <Button to="#contact">Kontakt aufnehmen</Button>
+         <Button to="/#contact">Kontakt aufnehmen</Button>
       </div>
    </section>
 
@@ -55,7 +55,7 @@ let offers = getOffers();
          ></Offer>
       </div>
       <div id="offers-link">
-         <Button to="offers">Zu den Angeboten</Button>
+         <Button to="/offers">Zu den Angeboten</Button>
       </div>
    </section>
 

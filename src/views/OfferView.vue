@@ -19,7 +19,7 @@
          <ul id="services">
             <li v-for="service of offer.services">{{ service }}</li>
          </ul>
-         <Button to="#contact">Kontakt aufnehmen</Button>
+         <Button to="/#contact">Kontakt aufnehmen</Button>
       </section>
    </div>
 </template>

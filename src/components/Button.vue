@@ -1,5 +1,5 @@
 <template>
-   <a :href="`/rs-objektreinigung/` + props.to ?? ''">
+   <a :href="`/rs-objektreinigung` + props.to ?? ''">
       <div id="button">
          <slot />
       </div>
