@@ -14,14 +14,14 @@ let menuOpen = ref(false);
          <img
             v-if="!menuOpen"
             id="menu-burger"
-            src="@/assets/icons/menu-burger.png"
+            src="/icons/menu-burger.png"
             alt="menu"
             @click="() => (menuOpen = true)"
          />
          <img
             v-if="menuOpen"
             id="menu-close"
-            src="@/assets/icons/menu-close.png"
+            src="/icons/menu-close.png"
             alt="menu"
             @click="() => (menuOpen = false)"
          />
@@ -79,11 +79,11 @@ let menuOpen = ref(false);
             Refko Corovic
          </p>
          <div class="contact-info">
-            <img src="@/assets/icons/call.png" alt="phone" />
+            <img src="/icons/call.png" alt="phone" />
             <div>0173/1881447</div>
          </div>
          <div class="contact-info">
-            <img src="@/assets/icons/mail.png" alt="phone" />
+            <img src="/icons/mail.png" alt="phone" />
             <div>refko19.rc@gmail.com</div>
          </div>
       </div>

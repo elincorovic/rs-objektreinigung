@@ -19,7 +19,7 @@
          <ul id="services">
             <li v-for="service of offer.services">{{ service }}</li>
          </ul>
-         <Button to="/#contact">Kontakt aufnehmen</Button>
+         <Button to="#contact">Kontakt aufnehmen</Button>
       </section>
    </div>
 </template>
@@ -31,7 +31,7 @@ import { useRoute } from "vue-router";
 
 let offerSlug = useRoute().params.slug;
 let offer = typeof offerSlug === "string" ? getOffer(offerSlug) : undefined;
-let imgUrl = `/rs-objektreinigung/src/assets/imgs/${offer?.slug}.jpg`;
+let imgUrl = `/rs-objektreinigung/imgs/${offer?.slug}.jpg`;
 </script>
 
 <style scoped lang="scss">

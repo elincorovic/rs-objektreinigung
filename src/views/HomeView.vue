@@ -55,7 +55,7 @@ let offers = getOffers();
          ></Offer>
       </div>
       <div id="offers-link">
-         <Button to="/offers">Zu den Angeboten</Button>
+         <Button to="offers">Zu den Angeboten</Button>
       </div>
    </section>
 
@@ -73,11 +73,11 @@ let offers = getOffers();
          </p>
          <p>So erreichen sie uns:</p>
          <div class="contact-info">
-            <img src="@/assets/icons/call.png" alt="phone" />
+            <img src="/icons/call.png" alt="phone" />
             <div>0173/1881447</div>
          </div>
          <div class="contact-info">
-            <img src="@/assets/icons/mail.png" alt="phone" />
+            <img src="/icons/mail.png" alt="phone" />
             <div>refko19.rc@gmail.com</div>
          </div>
       </div>
@@ -92,7 +92,7 @@ let offers = getOffers();
    flex-direction: column;
    justify-content: center;
    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)),
-      url("@/assets/imgs/office-outside.jpg");
+      url("/imgs/office-outside.jpg");
    background-size: cover;
    background-position: center;
 }
@@ -173,7 +173,8 @@ let offers = getOffers();
    scroll-margin-top: 68px;
    padding: 50px 50px;
    background: linear-gradient(rgb(19, 60, 85, 0.8), rgb(19, 60, 85, 0.8)),
-      url("@/assets/imgs/office-outside.jpg");
+      url("/imgs/office-outside.jpg");
+   background-position: center;
 }
 
 #offer-title {
