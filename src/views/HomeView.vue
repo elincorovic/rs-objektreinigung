@@ -281,7 +281,7 @@ let offers = getOffers();
    }
 
    #offers-container {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
    }
 }
 </style>
