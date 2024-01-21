@@ -27,11 +27,17 @@
 <script setup lang="ts">
 import Button from "@/components/Button.vue";
 import { getOffer } from "@/services/offer-service";
+import { onMounted, onUpdated } from "vue";
 import { useRoute } from "vue-router";
 
 let offerSlug = useRoute().params.slug;
 let offer = typeof offerSlug === "string" ? getOffer(offerSlug) : undefined;
 let imgUrl = `/imgs/${offer?.slug}.jpg`;
+
+onUpdated(() => {
+   offer = typeof offerSlug === "string" ? getOffer(offerSlug) : undefined;
+   location.reload();
+});
 </script>
 
 <style scoped lang="scss">

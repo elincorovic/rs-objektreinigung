@@ -198,7 +198,6 @@ let offers = getOffers();
 }
 
 #contact {
-   scroll-margin-top: 68px;
    background-color: $mint;
    padding: 50px 20px;
 }

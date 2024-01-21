@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterView } from "vue-router";
+import { RouterView, useRoute } from "vue-router";
 import { getOffers } from "./services/offer-service";
 import { ref } from "vue";
 
@@ -61,7 +61,10 @@ let menuOpen = ref(false);
       <div>
          <h3>Unser Angebot</h3>
          <ul>
-            <router-link v-for="offer in offers" :to="`/offer/${offer.slug}`"
+            <router-link
+               v-for="offer in offers"
+               :key="offer.slug"
+               :to="`/offer/${offer.slug}`"
                ><li>{{ offer.title }}</li></router-link
             >
          </ul>
@@ -125,6 +128,7 @@ header {
 #menu-burger,
 #menu-close {
    width: 33px;
+   cursor: pointer;
 }
 
 #mobile-links {
