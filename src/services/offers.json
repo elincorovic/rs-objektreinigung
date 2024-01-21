@@ -1,0 +1,130 @@
+{
+   "offers": [
+      {
+         "slug": "grundreinigung",
+         "title": "Grundreinigung",
+         "shortDescription": "Intensive und umfassende Reinigung von Räumen, Möbeln und Einrichtungsgegenständen, um eine grundlegende Sauberkeit wiederherzustellen.",
+         "description": "Die Grundreinigung ist eine umfassende Reinigung von Räumen, Möbeln und Einrichtungsgegenständen. Wir beseitigen hartnäckige Verschmutzungen und sorgen für eine grundlegende Frische in Ihren Räumlichkeiten.",
+         "services": [
+            "Grundreinigung von Teppichen, Fußböden und Fliesen",
+            "Reinigung von Fenstern und Glasflächen",
+            "Intensive Reinigung von Toiletten, Waschbecken und Duschen",
+            "Abwischen und Reinigen von Möbeln",
+            "Entfernung von Staub auf Oberflächen, Regalen und Möbeln",
+            "Entsorgung von Abfällen und Müll",
+            "Reinigung von Küchengeräten, Arbeitsflächen und Schränken",
+            "Abwischen von Wänden und Decken",
+            "Desinfektion von bestimmten Bereichen und Oberflächen",
+            "Reinigung von Heizkörpern und Lüftungsschlitzen"
+         ]
+      },
+      {
+         "slug": "unterhaltsreinigung",
+         "title": "Unterhaltsreinigung",
+         "shortDescription": "Regelmäßige Reinigungsdienste zur Aufrechterhaltung einer sauberen und hygienischen Umgebung.",
+         "description": "Die Unterhaltsreinigung bietet regelmäßige Reinigungsdienste, um eine saubere und hygienische Umgebung in Ihren Räumlichkeiten zu gewährleisten. Unsere Dienstleistungen sind darauf ausgerichtet, die Frische und den ordentlichen Zustand Ihrer Einrichtungen aufrechtzuerhalten.",
+         "services": [
+            "Reinigung von Böden, Teppichen und Oberflächen",
+            "Staubwischen auf Möbeln, Regalen und Arbeitsflächen",
+            "Entsorgung von Müll und Abfällen",
+            "Reinigung von Sanitäranlagen und Toiletten",
+            "Pflege und Reinigung von Gemeinschaftsbereichen",
+            "Nachfüllen von Verbrauchsmaterialien wie Seife und Toilettenpapier"
+         ]
+      },
+      {
+         "slug": "baureinigung",
+         "title": "Baureinigung",
+         "shortDescription": "Effiziente Reinigungsdienste während und nach Bauprojekten für eine makellose Endpräsentation.",
+         "description": "Die Baureinigung bietet effiziente Reinigungsdienste während und nach Bauprojekten. Unser Ziel ist es, eine makellose Endpräsentation sicherzustellen, indem wir Baustaub, Schmutz und Baureste gründlich beseitigen.",
+         "services": [
+            "Entfernung von Baustaub und Schmutz",
+            "Reinigung von Böden und Oberflächen",
+            "Beseitigung von Farb- und Kleberesten",
+            "Reinigung von Fenstern und Glasflächen",
+            "Entsorgung von Bauabfällen",
+            "Politur von Oberflächen für eine präsentable Endpräsentation"
+         ]
+      },
+      {
+         "slug": "glasreinigung",
+         "title": "Glasreinigung",
+         "shortDescription": "Professionelle Reinigung von Glasflächen für klare Sicht und ästhetische Erscheinung.",
+         "description": "Die Glasreinigung bietet professionelle Reinigungsdienste für Glasflächen. Wir sorgen für klare Sicht und eine ästhetische Erscheinung, indem wir Schmutz, Staub und Fingerabdrücke gründlich entfernen.",
+         "services": [
+            "Reinigung von Fenstern, Glasscheiben und Spiegeln",
+            "Entfernung von Schmutz, Staub und Fingerabdrücken",
+            "Politur für streifenfreien Glanz",
+            "Reinigung von Glasfassaden und Glastüren"
+         ]
+      },
+      {
+         "slug": "bodenreinigung",
+         "title": "Bodenreinigung",
+         "shortDescription": "Spezialisierte Reinigung von Böden für Hygiene und gepflegtes Erscheinungsbild.",
+         "description": "Die Bodenreinigung bietet spezialisierte Reinigungsdienste für Böden. Wir sorgen für Hygiene und ein gepflegtes Erscheinungsbild, indem wir unterschiedliche Bodenbeläge gründlich reinigen und pflegen.",
+         "services": [
+            "Reinigung von Teppichen, Fliesen und Hartböden",
+            "Entfernung von Flecken und Verschmutzungen",
+            "Politur für glänzende Oberflächen",
+            "Pflege von Holz- und Parkettböden"
+         ]
+      },
+      {
+         "slug": "bueroreinigung",
+         "title": "Büroreinigung",
+         "shortDescription": "Effiziente Reinigungsdienste für Büroflächen zur Schaffung einer angenehmen Arbeitsumgebung.",
+         "description": "Die Büroreinigung bietet effiziente Reinigungsdienste für Büroflächen. Unser Ziel ist es, eine angenehme Arbeitsumgebung zu schaffen, indem wir Böden, Möbel und Gemeinschaftsbereiche regelmäßig reinigen und pflegen.",
+         "services": [
+            "Reinigung von Böden, Teppichen und Schreibtischen",
+            "Staubwischen auf Möbeln, Regalen und Elektrogeräten",
+            "Reinigung von Sanitäranlagen und Gemeinschaftsbereichen",
+            "Entsorgung von Müll und Abfällen",
+            "Nachfüllen von Verbrauchsmaterialien wie Seife und Papier"
+         ]
+      },
+      {
+         "slug": "private-reinigung",
+         "title": "Private Reinigung",
+         "shortDescription": "Diskrete Reinigungsdienste für private Haushalte zur Schaffung einer sauberen und ordentlichen Umgebung.",
+         "description": "Die Private Reinigung bietet diskrete Reinigungsdienste für private Haushalte. Wir legen Wert auf Ihre Privatsphäre und sorgen für eine saubere und ordentliche Umgebung in Ihrem Zuhause.",
+         "services": [
+            "Reinigung von Wohnräumen, Schlafzimmern und Bädern",
+            "Pflege von Möbeln und Oberflächen",
+            "Staubwischen auf Regalen, Bilderrahmen und Dekorationen",
+            "Entsorgung von Müll und Abfällen",
+            "Reinigung von Küche und Haushaltsgeräten"
+         ]
+      },
+      {
+         "slug": "hausmeisterarbeiten",
+         "title": "Hausmeisterarbeiten",
+         "shortDescription": "Vielseitige Hausmeisterdienste für die Pflege und Instandhaltung von Gebäuden und Anlagen.",
+         "description": "Die Hausmeisterarbeiten bieten vielseitige Dienste zur Pflege und Instandhaltung von Gebäuden und Anlagen. Unsere Hausmeister kümmern sich um verschiedene Aufgaben, um den ordnungsgemäßen Zustand Ihrer Immobilie sicherzustellen.",
+         "services": [
+            "Kleinreparaturen und Instandhaltungsarbeiten",
+            "Pflege von Außenanlagen und Grünflächen",
+            "Überwachung von technischen Einrichtungen",
+            "Winterdienst und Schneeräumung",
+            "Koordination von Handwerkern und Dienstleistern"
+         ]
+      },
+
+      {
+         "slug": "treppenhausreinigung",
+         "title": "Treppenhausreinigung",
+         "shortDescription": "Gründliche Reinigung von Treppenhäusern für eine sichere und gepflegte Umgebung.",
+         "description": "Die Treppenhausreinigung bietet eine gründliche Reinigung von Treppenhäusern, um eine sichere und gepflegte Umgebung zu gewährleisten. Wir beseitigen Schmutz, Staub und Verschmutzungen, um den Komfort und die Sicherheit Ihrer Wohn- oder Geschäftsimmobilie zu erhöhen.",
+         "services": [
+            "Reinigung von Treppenstufen und Geländern",
+            "Beseitigung von Schmutz und Staub in Ecken und Nischen",
+            "Entsorgung von Müll und Unrat",
+            "Pflege von Fußböden und Treppenbelägen",
+            "Reinigung von Beleuchtungskörpern und Schaltern",
+            "Entfernung von Spinnweben und Insektenresten",
+            "Säuberung von Briefkästen und Ablageflächen",
+            "Reinigung von Fenstern und Glasflächen im Treppenhaus"
+         ]
+      }
+   ]
+}
