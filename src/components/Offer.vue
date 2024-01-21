@@ -1,5 +1,5 @@
 <template>
-   <a id="offer-link" :href="props.asLink ? `/offer/${props.slug}` : ''">
+   <RouterLink id="offer-link" :to="props.asLink ? `/offer/${props.slug}` : ''">
       <div id="offer-container">
          <img :src="imgSrc" :alt="props.title" />
          <div class="text-box">
@@ -7,7 +7,7 @@
             <p class="short-description">{{ props.shortDescription }}</p>
          </div>
       </div>
-   </a>
+   </RouterLink>
 </template>
 
 <script setup lang="ts">
@@ -18,7 +18,7 @@ const props = defineProps<{
    asLink?: boolean;
 }>();
 
-const imgSrc = "/src/assets/imgs/" + props.slug + ".jpg";
+const imgSrc = "/rs-objektreinigung/src/assets/imgs/" + props.slug + ".jpg";
 </script>
 
 <style scoped lang="scss">

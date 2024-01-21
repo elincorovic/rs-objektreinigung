@@ -10,7 +10,7 @@ let menuOpen = ref(false);
 <template>
    <header>
       <div id="menu-bar">
-         <a href="/"><div id="logo">RS</div></a>
+         <a href="/rs-objektreinigung/"><div id="logo">RS</div></a>
          <img
             v-if="!menuOpen"
             id="menu-burger"
@@ -26,17 +26,21 @@ let menuOpen = ref(false);
             @click="() => (menuOpen = false)"
          />
          <ul id="desktop-links">
-            <a href="/"><li>Home</li></a>
-            <a href="/offers"><li>Unser Angebot</li></a>
-            <a href="/#contact"><li>Kontakt</li></a>
+            <a href="/rs-objektreinigung/"><li>Home</li></a>
+            <a href="/rs-objektreinigung/offers"><li>Unser Angebot</li></a>
+            <a href="/rs-objektreinigung/#contact"><li>Kontakt</li></a>
          </ul>
       </div>
       <div v-if="menuOpen" id="mobile-links">
-         <a href="/" @click="menuOpen = false"><div>Home</div></a>
-         <a href="/offers" @click="menuOpen = false"
+         <a href="/rs-objektreinigung/" @click="menuOpen = false"
+            ><div>Home</div></a
+         >
+         <a href="/rs-objektreinigung/offers" @click="menuOpen = false"
             ><div>Unser Angebot</div></a
          >
-         <a href="/#contact" @click="menuOpen = false"><div>Kontakt</div></a>
+         <a href="/rs-objektreinigung/#contact" @click="menuOpen = false"
+            ><div>Kontakt</div></a
+         >
       </div>
    </header>
 
@@ -129,7 +133,7 @@ header {
    list-style: none;
 }
 
-#mobile-links > a > li {
+#mobile-links > a > div {
    font-size: 24px;
    margin-bottom: 10px;
 }
