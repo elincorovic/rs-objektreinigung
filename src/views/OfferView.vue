@@ -31,7 +31,7 @@ import { useRoute } from "vue-router";
 
 let offerSlug = useRoute().params.slug;
 let offer = typeof offerSlug === "string" ? getOffer(offerSlug) : undefined;
-let imgUrl = `/rs-objektreinigung/imgs/${offer?.slug}.jpg`;
+let imgUrl = `/imgs/${offer?.slug}.jpg`;
 </script>
 
 <style scoped lang="scss">

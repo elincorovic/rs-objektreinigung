@@ -18,7 +18,7 @@ const props = defineProps<{
    asLink?: boolean;
 }>();
 
-const imgSrc = "/rs-objektreinigung/imgs/" + props.slug + ".jpg";
+const imgSrc = "/imgs/" + props.slug + ".jpg";
 </script>
 
 <style scoped lang="scss">
