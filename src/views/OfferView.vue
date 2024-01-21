@@ -28,7 +28,7 @@
 import Button from "@/components/Button.vue";
 import router from "@/router";
 import { getOffer } from "@/services/offer-service";
-import { onMounted, onUpdated } from "vue";
+import { onUpdated } from "vue";
 import { useRoute } from "vue-router";
 
 let offerSlug = useRoute().params.slug;
