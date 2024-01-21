@@ -10,7 +10,7 @@ let menuOpen = ref(false);
 <template>
    <header>
       <div id="menu-bar">
-         <a href="/"><div id="logo">RS</div></a>
+         <router-link to="/"><div id="logo">RS</div></router-link>
          <img
             v-if="!menuOpen"
             id="menu-burger"
@@ -26,17 +26,21 @@ let menuOpen = ref(false);
             @click="() => (menuOpen = false)"
          />
          <ul id="desktop-links">
-            <a href="/"><li>Home</li></a>
-            <a href="/offers"><li>Unser Angebot</li></a>
-            <a href="/#contact"><li>Kontakt</li></a>
+            <router-link to="/"><li>Home</li></router-link>
+            <router-link to="/offers"><li>Unser Angebot</li></router-link>
+            <router-link to="/#contact"><li>Kontakt</li></router-link>
          </ul>
       </div>
       <div v-if="menuOpen" id="mobile-links">
-         <a href="/" @click="menuOpen = false"><div>Home</div></a>
-         <a href="/offers" @click="menuOpen = false"
-            ><div>Unser Angebot</div></a
+         <router-link to="/" @click="menuOpen = false"
+            ><div>Home</div></router-link
          >
-         <a href="/#contact" @click="menuOpen = false"><div>Kontakt</div></a>
+         <router-link to="/offers" @click="menuOpen = false"
+            ><div>Unser Angebot</div></router-link
+         >
+         <router-link to="/#contact" @click="menuOpen = false"
+            ><div>Kontakt</div></router-link
+         >
       </div>
    </header>
 
@@ -48,17 +52,17 @@ let menuOpen = ref(false);
       <div>
          <h3>Navigation</h3>
          <ul>
-            <a href="/"><li>Home</li></a>
-            <a href="/offers"><li>Unser Angebot</li></a>
-            <a href="/#contact"><li>Kontakt</li></a>
+            <router-link to="/"><li>Home</li></router-link>
+            <router-link to="/offers"><li>Unser Angebot</li></router-link>
+            <router-link to="/#contact"><li>Kontakt</li></router-link>
          </ul>
       </div>
 
       <div>
          <h3>Unser Angebot</h3>
          <ul>
-            <a v-for="offer in offers" :href="`/offer/${offer.slug}`"
-               ><li>{{ offer.title }}</li></a
+            <router-link v-for="offer in offers" :to="`/offer/${offer.slug}`"
+               ><li>{{ offer.title }}</li></router-link
             >
          </ul>
       </div>

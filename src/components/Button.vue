@@ -1,9 +1,9 @@
 <template>
-   <a :href="props.to ?? ''">
+   <router-link :to="props.to ?? ''">
       <div id="button">
          <slot />
       </div>
-   </a>
+   </router-link>
 </template>
 
 <script setup lang="ts">
