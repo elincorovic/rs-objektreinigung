@@ -26,6 +26,7 @@
 
 <script setup lang="ts">
 import Button from "@/components/Button.vue";
+import router from "@/router";
 import { getOffer } from "@/services/offer-service";
 import { onMounted, onUpdated } from "vue";
 import { useRoute } from "vue-router";
@@ -36,7 +37,7 @@ let imgUrl = `/imgs/${offer?.slug}.jpg`;
 
 onUpdated(() => {
    offer = typeof offerSlug === "string" ? getOffer(offerSlug) : undefined;
-   location.reload();
+   router.go(0);
 });
 </script>
 
