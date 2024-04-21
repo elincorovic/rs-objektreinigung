@@ -49,46 +49,56 @@ let menuOpen = ref(false);
    <RouterView />
 
    <footer>
-      <div>
-         <h3>Navigation</h3>
-         <ul>
-            <router-link to="/"><li>Home</li></router-link>
-            <router-link to="/offers"><li>Unser Angebot</li></router-link>
-            <router-link to="/#contact"><li>Kontakt</li></router-link>
-         </ul>
-      </div>
-
-      <div>
-         <h3>Unser Angebot</h3>
-         <ul>
-            <router-link
-               v-for="offer in offers"
-               :key="offer.slug"
-               :to="`/offer/${offer.slug}`"
-               ><li>{{ offer.title }}</li></router-link
-            >
-         </ul>
-      </div>
-
-      <div>
-         <h3>Kontakt</h3>
-         <p>
-            RS Objektreinigung Stuttgart <br />
-            Vogelsangstr. 63 <br />
-            70197 Stuttgart
-         </p>
-         <p>
-            Ansprechpartner: <br />
-            Refko Corovic
-         </p>
-         <div class="contact-info">
-            <img src="/icons/call.png" alt="phone" />
-            <div>0173/1881447</div>
+      <div id="footer-top">
+         <div>
+            <h3>Navigation</h3>
+            <ul>
+               <router-link to="/"><li>Home</li></router-link>
+               <router-link to="/offers"><li>Unser Angebot</li></router-link>
+               <router-link to="/#contact"><li>Kontakt</li></router-link>
+            </ul>
          </div>
-         <div class="contact-info">
-            <img src="/icons/mail.png" alt="phone" />
-            <div>refko19.rc@gmail.com</div>
+
+         <div>
+            <h3>Unser Angebot</h3>
+            <ul>
+               <router-link
+                  v-for="offer in offers"
+                  :key="offer.slug"
+                  :to="`/offer/${offer.slug}`"
+                  ><li>{{ offer.title }}</li></router-link
+               >
+            </ul>
          </div>
+
+         <div>
+            <h3>Kontakt</h3>
+            <p>
+               RS Objektreinigung Stuttgart <br />
+               Vogelsangstr. 63 <br />
+               70197 Stuttgart
+            </p>
+            <p>
+               Ansprechpartner: <br />
+               Refko Corovic
+            </p>
+            <div class="contact-info">
+               <img src="/icons/call.png" alt="phone" />
+               <div>0173/1881447</div>
+            </div>
+            <div class="contact-info">
+               <img src="/icons/mail.png" alt="phone" />
+               <div>refko19.rc@gmail.com</div>
+            </div>
+         </div>
+      </div>
+      <div id="footer-bottom">
+         <router-link to="/impressum" class="footer-bottom-link"
+            >Impressum</router-link
+         >
+         <router-link to="/datenschutz" class="footer-bottom-link"
+            >Datenschutz</router-link
+         >
       </div>
    </footer>
 </template>
@@ -161,26 +171,40 @@ footer {
    padding: 20px;
 }
 
-footer > div > h3 {
+#footer-top {
+   padding-bottom: 20px;
+}
+
+#footer-top > div > h3 {
    margin-top: 20px;
    margin-bottom: 10px;
    font-size: 24px;
 }
 
-footer > div:first-child > h3 {
+#footer-top > div:first-child > h3 {
    margin-top: 0;
 }
 
-footer > div > ul {
+#footer-top > div > ul {
    list-style: none;
 }
-footer > div > ul > a {
+#footer-top > div > ul > a {
    text-decoration: none;
 }
 
-footer > div > p {
+#footer-top > div > p {
    line-height: 22px;
    margin-bottom: 20px;
+}
+
+#footer-bottom {
+   display: flex;
+   justify-content: center;
+   border-top: 2px solid $mint;
+}
+
+.footer-bottom-link {
+   margin: 20px 30px 0 30px;
 }
 
 .contact-info > div {
@@ -206,12 +230,12 @@ footer > div > p {
       gap: 40px;
    }
 
-   footer {
+   #footer-top {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
    }
 
-   footer > div:first-child > h3 {
+   #footer-top > div:first-child > h3 {
       margin-top: 20px;
    }
 }
