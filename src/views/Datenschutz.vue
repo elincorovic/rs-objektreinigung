@@ -305,6 +305,7 @@
 h1 {
    font-size: 38px;
    padding-bottom: 20px;
+   overflow-wrap: break-word;
 }
 
 h2 {

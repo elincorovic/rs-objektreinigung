@@ -16,7 +16,6 @@
 #container {
    background-color: $mint;
    padding: calc(30px + 68px) 20px 50px 20px;
-   height: 60vh;
 }
 
 * {
@@ -31,6 +30,7 @@ h1 {
 @media only screen and (min-width: 1200px) {
    #container {
       padding: calc(30px + 68px) 15% 50px 15%;
+      height: 60vh;
    }
 }
 </style>
