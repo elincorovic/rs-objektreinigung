@@ -7,7 +7,7 @@
       <p>Deutschland</p>
       <br />
       <p class="bold">Kontakt</p>
-      <p>Telefon: +49 172 8410050</p>
+      <p>Telefon: +49 173 1881447</p>
       <p>E-Mail: refko19.rc@gmail.com</p>
    </div>
 </template>
